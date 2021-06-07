@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="admin.css">
+
+	<body>
+		
+	
+		<header>
+			<h1>VIVEK REDDY S</h1>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html">About</a></li>
+					<li><a href="index.html">Gallery</a></li>
+					<li><a href="index.html">Contact</a></li>
+					<li><a href="#">Admin</a></li>
+				
+			    </ul>
+			</header>
+			<div id="galleryadmin">
+	</br><h1>Gallery Admin</h1>
+	 <button id="add_button" type="button">Add Image</button>
+	<div id="gallerypics">
+	</div>
+
+
+
+<div id="myModal" class="modal">
+
+    
+        <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Add Image</h2>
+            </div>
+			
+            <div class="modal-body">
+				<form id="image_form" action="" name="form2">
+					<div class="row">
+						<label for="nameimg">Image-Name:</label><br />
+						<input id="nameimg" class="input" name="nameimg" type="text" value="" size="30" /><br />
+					</div>
+					<div class="row">
+						<label for="url">Image-URL:</label><br />
+						<input id="url" class="input" name="url" type="text" value="" /><br />
+					</div>
+
+					<div class="row">
+						<label for="info">Image-info:</label><br />
+						<input id="info" class="input" name="info" rows="7" cols="30" value=""></input><br />
+					</div>
+					<div class="row">
+						<label for="update">Upload-date(dd/mm/yyyy):</label><br />
+						<input id="update" class="input" name="update" type="text" value=""></input><br />
+					</div>
+					<button id="Addimage_button" type="button">Add Image</button>
+				</form>
+
+            </div>
+			
+            
+        </div>
+
+    </div>
+    <div id="myModal1" class="modal1">
+
+    <div class="modal-content1">
+            <div class="modal-header1">
+              <span class="close1">&times;</span>
+              <h2>Update/Remove Image</h2>
+            </div>
+            <div class="modal-body1">
+              
+            <form id="remove_form" action="" name="form3" autocomplete="off">
+                <div class="row">
+                    <label for="nameimg1">Image-Name:</label><br />
+                    <input id="nameimg1" class="input" name="nameimg1" type="text" value="" size="30" /><br />
+                </div>
+                <div class="row">
+                    <label for="url1">Image-URL:</label><br />
+                    <input id="url1" class="input" name="url1" type="text" value="" /><br />
+                </div>
+                <div class="row">
+                    <label for="info1">Image-info:</label><br />
+                    <input id="info1" class="input" name="info1" rows="7" cols="30" value=""></input><br />
+                </div>
+                <div class="row">
+                    <label for="update1">Upload-date(dd/mm/yyyy):</label><br />
+                    <input id="update1" class="input" name="update1" type="text" value=""></input><br />
+                </div>
+                
+            </form>
+
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+<script src="script.js"></script>
+
+			
+</body>
+</html>
+		
+			
+		
